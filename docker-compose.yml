@@ -1,7 +1,7 @@
 version: "3.9"  
 services:
   fastapi:
-    image: alrmx/clase_devops:myimagefastapiv1
+    image: alrmx/clase_devops:myimagefastapi
     build: ./docker_fastapi
     ports:
       - "90"
